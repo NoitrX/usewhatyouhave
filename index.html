@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UseWhatYouHave – Temukan Resep Lezat Dari Bahan Yang Kamu Miliki</title>
+  <meta name="description" content="Website pencarian dan eksplorasi resep masakan yang membantu kamu memasak hidangan lezat berdasarkan bahan-bahan yang sudah tersedia di kulkas dan dapurmu.">
+  <meta name="keywords" content="resep masakan, cari resep bahan, masak apa hari ini, masakan indonesia, resep praktis, ide bekal">
+
+  <!-- Favicon Icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍳</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Nunito Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400..900;1,6..12,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#FFF7F0',
+            'light-peach': '#FFE5D3',
+            'primary-orange': '#E58B4A',
+            'dark-brown': '#542512',
+            'soft-brown': '#8C5132',
+            'success-green': '#78A85B',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            heading: ['"Nunito Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#FFF7F0] text-[#542512] min-h-screen flex flex-col selection:bg-[#E58B4A] selection:text-white">
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="sticky top-0 z-40 warm-glass border-b border-[#F5E3D5] shadow-warm-sm transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-[#E58B4A] to-[#FFAB6B] flex items-center justify-center text-2xl shadow-md group-hover:scale-105 transition-transform">
+          🍳
+        </div>
+        <div>
+          <span class="font-heading font-black text-xl sm:text-2xl tracking-tight text-[#542512] block">
+            UseWhat<span class="text-[#E58B4A]">YouHave</span>
+          </span>
+          <span class="text-[10px] sm:text-xs font-semibold text-[#8C5132] tracking-wider uppercase block -mt-1">
+            Discovery & Cooking Guide
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-bold text-[#542512]">
+        <a href="index.html" class="text-[#E58B4A] transition-colors flex items-center gap-1.5">
+          <span>🏠</span> Beranda
+        </a>
+        <a href="#kategoriSection" class="hover:text-[#E58B4A] transition-colors flex items-center gap-1.5">
+          <span>📂</span> Kategori
+        </a>
+        <a href="#pantrySection" class="hover:text-[#E58B4A] transition-colors flex items-center gap-1.5">
+          <span>🥫</span> Punya Bahan Apa?
+        </a>
+        <a href="#recipeSection" class="hover:text-[#E58B4A] transition-colors flex items-center gap-1.5">
+          <span>📖</span> Koleksi Resep
+        </a>
+      </nav>
+
+      <!-- Action Button & Mobile Toggle -->
+      <div class="flex items-center gap-3">
+        <a href="#recipeSection" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#E58B4A] text-white text-xs font-bold shadow-md hover:bg-[#c97133] transition-all hover:shadow-lg">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <span>Cari Resep</span>
+        </a>
+
+        <button id="mobileMenuBtn" type="button" class="md:hidden w-10 h-10 rounded-xl bg-white border border-[#F5E3D5] flex items-center justify-center text-[#542512] focus:outline-none" aria-label="Menu navigasi">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Drawer -->
+    <div id="mobileMenu" class="hidden md:hidden border-t border-[#F5E3D5] bg-white px-4 py-4 space-y-3 shadow-lg">
+      <a href="index.html" class="block font-bold text-sm text-[#E58B4A] py-1">🏠 Beranda</a>
+      <a href="#kategoriSection" class="block font-bold text-sm text-[#542512] hover:text-[#E58B4A] py-1">📂 Kategori</a>
+      <a href="#pantrySection" class="block font-bold text-sm text-[#542512] hover:text-[#E58B4A] py-1">🥫 Punya Bahan Apa?</a>
+      <a href="#recipeSection" class="block font-bold text-sm text-[#542512] hover:text-[#E58B4A] py-1">📖 Koleksi Resep</a>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="relative overflow-hidden pt-8 pb-16 lg:py-20 border-b border-[#F5E3D5] bg-gradient-to-b from-[#FFF7F0] via-[#FFEEDF] to-[#FFF7F0]">
+    <!-- Decorative background blobs -->
+    <div class="absolute -top-24 -left-24 w-96 h-96 bg-[#FFE5D3] rounded-full blur-3xl opacity-60 pointer-events-none"></div>
+    <div class="absolute top-1/2 -right-24 w-96 h-96 bg-[#FFD7B8] rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Content -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Badge Subtitle -->
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-[#F5E3D5] shadow-sm text-xs font-bold text-[#8C5132]">
+            <span class="w-2 h-2 rounded-full bg-[#E58B4A] animate-ping"></span>
+            <span>🍽️ Inspirasi Memasak Tanpa Bingung Bahan</span>
+          </div>
+
+          <!-- Headline -->
+          <h1 class="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-[#542512] leading-[1.15] tracking-tight">
+            Masak Apa Hari Ini?
+            <span class="block text-[#E58B4A] mt-1">Gunakan Apa yang Kamu Miliki!</span>
+          </h1>
+
+          <!-- Description -->
+          <p class="text-[#8C5132] text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            Temukan inspirasi masakan lezat dan teruji dari bahan-bahan yang sudah ada di dapurmu. Dilengkapi takaran detail, alternatif pengganti bahan, dan panduan langkah demi langkah.
+          </p>
+
+          <!-- Hero Search Box -->
+          <div class="bg-white p-2.5 rounded-2xl shadow-warm-md border border-[#F5E3D5] max-w-xl mx-auto lg:mx-0 flex flex-col sm:flex-row items-center gap-2">
+            <div class="flex items-center gap-3 px-3 flex-1 w-full">
+              <svg class="w-5 h-5 text-[#8C5132]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+              <input 
+                id="heroSearchInput" 
+                type="text" 
+                placeholder="Cari masakan atau bahan (cth: Nasi Goreng, Telur, Ayam)..."
+                class="w-full text-sm font-medium bg-transparent border-none focus:outline-none text-[#542512] placeholder-[#8C5132]/60"
+              />
+            </div>
+            <a href="#recipeSection" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-[#E58B4A] text-white text-xs font-bold hover:bg-[#c97133] transition-all text-center shrink-0 shadow-sm">
+              Eksplorasi Resep
+            </a>
+          </div>
+
+          <!-- Quick Query Tags -->
+          <div class="pt-1 flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs">
+            <span class="text-[#8C5132] font-semibold">Pencarian Populer:</span>
+            <button type="button" data-query="Telur" class="hero-quick-tag px-3 py-1.5 rounded-full bg-white border border-[#F5E3D5] text-[#542512] font-bold hover:border-[#E58B4A] hover:bg-orange-50 transition-all shadow-sm">
+              🍳 Punya Telur?
+            </button>
+            <button type="button" data-query="Ayam" class="hero-quick-tag px-3 py-1.5 rounded-full bg-white border border-[#F5E3D5] text-[#542512] font-bold hover:border-[#E58B4A] hover:bg-orange-50 transition-all shadow-sm">
+              🍗 Punya Ayam?
+            </button>
+            <button type="button" data-query="Nasi" class="hero-quick-tag px-3 py-1.5 rounded-full bg-white border border-[#F5E3D5] text-[#542512] font-bold hover:border-[#E58B4A] hover:bg-orange-50 transition-all shadow-sm">
+              🍚 Nasi Sisa
+            </button>
+            <button type="button" data-query="Tahu" class="hero-quick-tag px-3 py-1.5 rounded-full bg-white border border-[#F5E3D5] text-[#542512] font-bold hover:border-[#E58B4A] hover:bg-orange-50 transition-all shadow-sm">
+              🧈 Tahu & Tempe
+            </button>
+          </div>
+
+          <!-- Highlight Badges -->
+          <div class="grid grid-cols-3 gap-4 pt-4 max-w-lg mx-auto lg:mx-0">
+            <div class="bg-white/80 p-3 rounded-2xl border border-[#F5E3D5] text-center shadow-warm-sm">
+              <span class="block font-heading font-black text-xl text-[#E58B4A]">28+</span>
+              <span class="text-[11px] font-semibold text-[#8C5132]">Resep Teruji</span>
+            </div>
+            <div class="bg-white/80 p-3 rounded-2xl border border-[#F5E3D5] text-center shadow-warm-sm">
+              <span class="block font-heading font-black text-xl text-[#78A85B]">7</span>
+              <span class="text-[11px] font-semibold text-[#8C5132]">Kategori Pilihan</span>
+            </div>
+            <div class="bg-white/80 p-3 rounded-2xl border border-[#F5E3D5] text-center shadow-warm-sm">
+              <span class="block font-heading font-black text-xl text-[#542512]">100%</span>
+              <span class="text-[11px] font-semibold text-[#8C5132]">Panduan Visual</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Card -->
+        <div class="lg:col-span-5 relative flex justify-center">
+          <div class="relative w-full max-w-md">
+            
+            <!-- Main Featured Image Card -->
+            <div class="rounded-3xl overflow-hidden bg-white border-2 border-white shadow-warm-lg transform hover:-rotate-1 transition-transform duration-500">
+              <img 
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" 
+                alt="Makanan lezat UseWhatYouHave" 
+                class="w-full h-80 object-cover"
+              />
+              <div class="p-5 bg-white">
+                <div class="flex items-center justify-between text-xs font-bold text-[#E58B4A] mb-1">
+                  <span>✨ Rekomendasi Hari Ini</span>
+                  <span class="text-[#78A85B]">⏱️ 20 Menit Saja</span>
+                </div>
+                <h3 class="font-heading font-black text-lg text-[#542512]">
+                  Beef Teriyaki Rice Bowl
+                </h3>
+                <p class="text-xs text-[#8C5132] mt-1">
+                  Gunakan irisan daging dan bawang bombay dengan bumbu kecap manis gurih.
+                </p>
+              </div>
+            </div>
+
+            <!-- Floating Badge 1: Step Guide -->
+            <div class="absolute -top-4 -right-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-[#F5E3D5] shadow-warm-md flex items-center gap-3 animate-gentle-pulse">
+              <span class="text-2xl">👩‍🍳</span>
+              <div>
+                <span class="text-[11px] font-bold text-[#542512] block">Step-by-Step</span>
+                <span class="text-[10px] text-[#8C5132]">Langkah visual mudah</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: Ingredient Swapper -->
+            <div class="absolute -bottom-6 -left-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-[#F5E3D5] shadow-warm-md flex items-center gap-3">
+              <span class="text-2xl">🔄</span>
+              <div>
+                <span class="text-[11px] font-bold text-[#542512] block">Alternatif Bahan</span>
+                <span class="text-[10px] text-[#78A85B] font-semibold">Bisa tukar bahan jika habis</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CATEGORIES SECTION ==================== -->
+  <section id="kategoriSection" class="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
+      <div>
+        <span class="text-xs font-bold text-[#E58B4A] tracking-wider uppercase block mb-1">
+          Kategori Pilihan
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-3xl text-[#542512]">
+          Jelajahi Berdasarkan Selera
+        </h2>
+      </div>
+      <p class="text-xs sm:text-sm text-[#8C5132] max-w-md">
+        Klik salah satu kategori di bawah untuk langsung menyaring koleksi resep yang sesuai dengan selera Anda.
+      </p>
+    </div>
+
+    <!-- Category Grid -->
+    <div id="categoryList" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      <!-- Diisi secara dinamis oleh JavaScript -->
+    </div>
+  </section>
+
+  <!-- ==================== "USE WHAT YOU HAVE" PANTRY SECTION ==================== -->
+  <section id="pantrySection" class="py-12 bg-white border-y border-[#F5E3D5]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-r from-[#FFF2E6] via-[#FFEADB] to-[#FFF2E6] p-6 sm:p-8 rounded-3xl border border-[#F5E3D5] shadow-warm-sm">
+        
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+          <div class="space-y-1">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-white text-[#E58B4A] text-xs font-bold rounded-full shadow-sm">
+              <span>🥫</span> Fitur Cerdas: Use What You Have
+            </div>
+            <h3 class="font-heading font-black text-xl sm:text-2xl text-[#542512]">
+              Pilih Bahan Yang Ada di Kulkasmu
+            </h3>
+            <p class="text-xs sm:text-sm text-[#8C5132]">
+              Klik bahan makanan di bawah ini, dan sistem akan langsung merekomendasikan masakan yang paling cocok beserta persentase kecocokannya!
+            </p>
+          </div>
+
+          <!-- Counter & Reset Button -->
+          <div class="flex items-center gap-3">
+            <span id="activeIngredientsBadge" class="hidden px-3 py-1.5 rounded-full bg-[#E58B4A] text-white text-xs font-bold">
+              0 bahan terpilih
+            </span>
+            <button id="clearIngredientsBtn" type="button" class="hidden text-xs font-bold text-rose-600 hover:text-rose-700 bg-white px-3 py-1.5 rounded-full border border-rose-200 transition-all">
+              ✕ Reset Bahan
+            </button>
+          </div>
+        </div>
+
+        <!-- Chips Container -->
+        <div id="ingredientChipsContainer" class="flex flex-wrap gap-2 pt-2">
+          <!-- Diisi secara dinamis oleh JavaScript -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== RECIPE COLLECTION SECTION ==================== -->
+  <section id="recipeSection" class="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-1">
+    
+    <!-- Section Header & Filter Controls -->
+    <div class="space-y-6 mb-8">
+      
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <span class="text-xs font-bold text-[#E58B4A] tracking-wider uppercase block mb-1">
+            Katalog Lengkap
+          </span>
+          <h2 class="font-heading font-black text-2xl sm:text-3xl text-[#542512]">
+            Koleksi Resep Pilihan
+          </h2>
+          <p id="recipeCountText" class="text-xs sm:text-sm text-[#8C5132] mt-1">
+            Memuat daftar resep...
+          </p>
+        </div>
+
+        <!-- Search Bar with Live Clear Button -->
+        <div class="relative w-full md:w-80">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#8C5132]">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input 
+            id="searchInput" 
+            type="text" 
+            placeholder="Cari resep atau bahan..." 
+            class="w-full pl-10 pr-10 py-2.5 rounded-full bg-white border border-[#F5E3D5] text-xs font-medium text-[#542512] placeholder-[#8C5132]/60 focus:outline-none focus:border-[#E58B4A] shadow-warm-sm transition-all"
+          />
+          <button id="searchClearBtn" type="button" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-gray-600">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Category Filter Pills (Horizontal Scroll on Mobile) -->
+      <div id="categoryChips" class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+        <!-- Diisi secara dinamis oleh JavaScript -->
+      </div>
+
+      <!-- Sub-filter & Sorting Bar -->
+      <div class="bg-white p-4 rounded-2xl border border-[#F5E3D5] shadow-warm-sm flex flex-wrap items-center justify-between gap-4 text-xs font-semibold">
+        
+        <!-- Difficulty Filter -->
+        <div class="flex items-center gap-2">
+          <span class="text-[#8C5132]">Tingkat Kesulitan:</span>
+          <div id="difficultyFilter" class="inline-flex rounded-lg border border-[#F5E3D5] p-0.5 bg-orange-50/50">
+            <button type="button" data-diff="all" class="px-2.5 py-1 rounded-md bg-[#542512] text-white transition-all">Semua</button>
+            <button type="button" data-diff="mudah" class="px-2.5 py-1 rounded-md bg-white text-[#542512] transition-all">Mudah</button>
+            <button type="button" data-diff="sedang" class="px-2.5 py-1 rounded-md bg-white text-[#542512] transition-all">Sedang</button>
+            <button type="button" data-diff="sulit" class="px-2.5 py-1 rounded-md bg-white text-[#542512] transition-all">Sulit</button>
+          </div>
+        </div>
+
+        <!-- Duration Filter -->
+        <div class="flex items-center gap-2">
+          <span class="text-[#8C5132]">Waktu Memasak:</span>
+          <div id="durationFilter" class="inline-flex rounded-lg border border-[#F5E3D5] p-0.5 bg-orange-50/50">
+            <button type="button" data-max="" class="px-2.5 py-1 rounded-md bg-[#542512] text-white transition-all">Semua</button>
+            <button type="button" data-max="20" class="px-2.5 py-1 rounded-md bg-white text-[#542512] transition-all">≤ 20 mnt</button>
+            <button type="button" data-max="35" class="px-2.5 py-1 rounded-md bg-white text-[#542512] transition-all">≤ 35 mnt</button>
+            <button type="button" data-max="60" class="px-2.5 py-1 rounded-md bg-white text-[#542512] transition-all">≤ 60 mnt</button>
+          </div>
+        </div>
+
+        <!-- Sorting Selector -->
+        <div class="flex items-center gap-2 ml-auto">
+          <label for="sortSelect" class="text-[#8C5132]">Urutkan:</label>
+          <select id="sortSelect" class="bg-orange-50/50 border border-[#F5E3D5] rounded-lg px-3 py-1.5 text-xs text-[#542512] font-semibold focus:outline-none focus:border-[#E58B4A]">
+            <option value="default">Paling Relevan</option>
+            <option value="name-asc">Nama Resep (A - Z)</option>
+            <option value="name-desc">Nama Resep (Z - A)</option>
+            <option value="duration-asc">Waktu Tercepat</option>
+            <option value="difficulty-asc">Tingkat Kesulitan</option>
+          </select>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Recipe Cards Grid -->
+    <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Diisi secara dinamis oleh JavaScript -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="hidden text-center py-16 px-4 bg-white rounded-3xl border border-[#F5E3D5] shadow-warm-sm max-w-xl mx-auto my-8">
+      <div class="w-20 h-20 mx-auto rounded-full bg-orange-100 flex items-center justify-center text-4xl mb-4">
+        🍳
+      </div>
+      <h3 class="font-heading font-black text-xl text-[#542512] mb-2">
+        Oops! Resep yang kamu cari belum ditemukan.
+      </h3>
+      <p class="text-xs sm:text-sm text-[#8C5132] max-w-md mx-auto mb-6">
+        Coba gunakan kata kunci bahan lain seperti <strong>Telur</strong>, <strong>Ayam</strong>, <strong>Nasi</strong>, atau atur ulang filter pencarianmu.
+      </p>
+      <button id="resetFilterBtn" type="button" class="px-6 py-2.5 rounded-full bg-[#E58B4A] text-white text-xs font-bold hover:bg-[#c97133] transition-all shadow-md">
+        Reset Filter & Cari Ulang
+      </button>
+    </div>
+
+    <!-- Pagination / Load More Button -->
+    <div id="loadMoreContainer" class="mt-12 text-center">
+      <button id="loadMoreBtn" type="button" class="px-8 py-3 rounded-full bg-white border-2 border-[#E58B4A] text-[#E58B4A] text-xs font-bold hover:bg-[#E58B4A] hover:text-white transition-all shadow-warm-sm hover:shadow-warm-md">
+        Muat Lebih Banyak Resep
+      </button>
+    </div>
+
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="mt-auto border-t border-[#F5E3D5] bg-[#FFEEDF] py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+        
+        <!-- Brand Philosophy -->
+        <div class="md:col-span-5 space-y-3">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">🍳</span>
+            <span class="font-heading font-black text-xl text-[#542512]">
+              UseWhat<span class="text-[#E58B4A]">YouHave</span>
+            </span>
+          </div>
+          <p class="text-xs text-[#8C5132] leading-relaxed max-w-sm">
+            Website penemuan resep yang didesain untuk membantumu memasak makanan lezat dari bahan yang sudah tersedia di dapur. Mengurangi *food waste* dan mempermudah kehidupan sehari-hari.
+          </p>
+          <p class="text-xs italic text-[#E58B4A] font-semibold">
+            "Cook Something Delicious with What You Already Have."
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="md:col-span-3 space-y-2">
+          <h4 class="font-bold text-xs uppercase tracking-wider text-[#542512]">Kategori Utama</h4>
+          <ul class="text-xs text-[#8C5132] space-y-1.5">
+            <li><a href="#kategoriSection" class="hover:text-[#E58B4A]">Masakan Indonesia</a></li>
+            <li><a href="#kategoriSection" class="hover:text-[#E58B4A]">Masakan Asia & Western</a></li>
+            <li><a href="#kategoriSection" class="hover:text-[#E58B4A]">Makanan Tradisional</a></li>
+            <li><a href="#kategoriSection" class="hover:text-[#E58B4A]">Dessert & Minuman</a></li>
+            <li><a href="#kategoriSection" class="hover:text-[#E58B4A]">Makanan Sehat</a></li>
+          </ul>
+        </div>
+
+        <!-- Tech Stack & Open Source Info -->
+        <div class="md:col-span-4 space-y-2">
+          <h4 class="font-bold text-xs uppercase tracking-wider text-[#542512]">Spesifikasi Proyek</h4>
+          <p class="text-xs text-[#8C5132]">
+            Dibangun dengan HTML5, CSS3, Tailwind CSS, Vanilla JavaScript, dan Web Scraping Python (BeautifulSoup). Data disimpan secara statis dalam format JSON terstruktur.
+          </p>
+          <div class="pt-2 flex items-center gap-2 text-[11px] font-bold text-[#8C5132]">
+            <span class="px-2 py-0.5 rounded bg-white border border-[#F5E3D5]">Frontend Static</span>
+            <span class="px-2 py-0.5 rounded bg-white border border-[#F5E3D5]">Zero Backend</span>
+            <span class="px-2 py-0.5 rounded bg-white border border-[#F5E3D5]">28+ Resep</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 mt-8 border-t border-[#F5E3D5] flex flex-col sm:flex-row items-center justify-between text-xs text-[#8C5132]/80 gap-4">
+        <span>© 2026 UseWhatYouHave. Seluruh hak cipta dan atribusi resep dihormati.</span>
+        <span>Dibuat dengan ❤️ dan semangat kuliner Indonesia.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data-fallback.js"></script>
+  <script src="js/recipes.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,2538 @@
+[
+  {
+    "id": "recipe-001",
+    "name": "Nasi Goreng Telur Spesial",
+    "slug": "nasi-goreng-telur-spesial",
+    "description": "Nasi goreng rumahan aromatik dengan telur orak-arik, bumbu bawang gurih, dan kecap manis pas.",
+    "category": "Masakan Indonesia",
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=1000&q=80",
+    "duration": 15,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Nasi Putih Dingin",
+        "quantity": 2,
+        "unit": "piring",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Telur Ayam",
+        "quantity": 2,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Merah",
+        "quantity": 3,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Putih",
+        "quantity": 2,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Cabai Rawit Merah",
+        "quantity": 3,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kecap Manis",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Garam & Merica",
+        "quantity": 0.5,
+        "unit": "sdt",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Minyak Goreng",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Siapkan Bumbu Cincang",
+        "description": "Cincang halus bawang merah, bawang putih, dan iris serong cabai rawit.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Tumis & Orak-Arik Telur",
+        "description": "Panaskan 1 sdm minyak di wajan, masukkan telur kocok, buat orak-arik hingga matang berbulir, lalu sisihkan ke pinggir wajan.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Tumis Bumbu Iris",
+        "description": "Tambahkan sisa minyak, tumis bawang merah, bawang putih, dan cabai rawit hingga harum dan matang kekuningan.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Masukkan Nasi & Aduk Rata",
+        "description": "Masukkan nasi dingin, aduk cepat dengan api besar agar butiran nasi terpisah dan terbalut rata dengan telur dan bumbu.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 5,
+        "title": "Bumbui & Sajikan",
+        "description": "Tuang kecap manis, garam, dan merica di pinggir wajan agar ada aroma karamel wajan (wok hei). Aduk rata selama 2 menit, lalu sajikan hangat.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Gunakan nasi pera atau nasi sisa semalam yang disimpan di kulkas agar tidak lembek saat diaduk.",
+      "Gunakan api besar saat memasukkan nasi agar menghasilkan aroma gurih harum khas wajan.",
+      "Bisa tambahkan irisan daun bawang di menit terakhir untuk kesegaran ekstra."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Telur Ayam",
+        "replacement": "Tahu putih potong dadu atau tempe goreng gurih"
+      },
+      {
+        "ingredient": "Cabai Rawit",
+        "replacement": "Saus sambal botolan atau bubuk cabai"
+      },
+      {
+        "ingredient": "Kecap Manis",
+        "replacement": "Kecap asin dicampur gula merah cair"
+      }
+    ],
+    "source": {
+      "name": "Dapur Nusantara Terbuka",
+      "url": "https://resepkoki.id/resep-nasi-goreng-spesial"
+    }
+  },
+  {
+    "id": "recipe-002",
+    "name": "Rendang Daging Sapi Padang",
+    "slug": "rendang-daging-sapi-padang",
+    "description": "Rendang sapi otentik Minang dengan kuah santan kelapa pekat, rempah lengkap, dan daging yang lembut meresap.",
+    "category": "Masakan Indonesia",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80",
+    "duration": 120,
+    "difficulty": "Sulit",
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Daging Sapi Gandik",
+        "quantity": 500,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Santan Kental Kelapa Asli",
+        "quantity": 1000,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Cabai Merah Keriting",
+        "quantity": 15,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Merah & Putih",
+        "quantity": 8,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Lengkuas & Jahe",
+        "quantity": 3,
+        "unit": "cm",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Serai & Daun Kunyit",
+        "quantity": 2,
+        "unit": "batang",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Haluskan Bumbu Rempah",
+        "description": "Haluskan cabai merah, bawang merah, bawang putih, lengkuas, jahe, dan ketumbar.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Rebus Santan & Bumbu",
+        "description": "Didihkan santan bersama bumbu halus, daun kunyit, daun jeruk, dan serai sambil ditimba-timba agar santan tidak pecah.",
+        "duration": 30,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Masukkan Daging",
+        "description": "Masukkan potongan daging sapi ke dalam santan yang sudah berminyak (tahap gulai ke kalio). Masak dengan api sedang.",
+        "duration": 40,
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Keringkan hingga Menghitam",
+        "description": "Kecilkan api, aduk perlahan secara berkala sampai kuah mengering, berminyak, dan berubah warna menjadi cokelat gelap rendang.",
+        "duration": 40,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Potong daging searah serat agar tidak mudah hancur saat diaduk lama.",
+      "Gunakan kelapa tua yang diparut sendiri untuk menghasilkan minyak santan yang melimpah dan harum gurih."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Daging Sapi",
+        "replacement": "Jamur tiram padat, kentang bulat kecil (baby potato), atau tempe padat"
+      },
+      {
+        "ingredient": "Santan Kelapa Asli",
+        "replacement": "Santan instan 200ml diencerkan dengan 800ml air"
+      }
+    ],
+    "source": {
+      "name": "Tradisi Kuliner Minangkabau",
+      "url": "https://id.wikipedia.org/wiki/Rendang"
+    }
+  },
+  {
+    "id": "recipe-003",
+    "name": "Soto Ayam Lamongan Kuah Kuning",
+    "slug": "soto-ayam-lamongan",
+    "description": "Sup ayam tradisional berkuah kuning gurih segar dengan aroma serai, koya gurih, dan suwiran ayam empuk.",
+    "category": "Masakan Indonesia",
+    "image": "https://images.unsplash.com/photo-1572656631137-7935297eff55?auto=format&fit=crop&w=1000&q=80",
+    "duration": 45,
+    "difficulty": "Sedang",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Dada Ayam",
+        "quantity": 400,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kunyit & Jahe",
+        "quantity": 3,
+        "unit": "cm",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Merah & Putih",
+        "quantity": 6,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Soun & Kol Iris",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Jeruk Nipis & Daun Bawang",
+        "quantity": 2,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Serupuk Udang (untuk Koya)",
+        "quantity": 5,
+        "unit": "keping",
+        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Rebus Daging Ayam",
+        "description": "Rebus ayam dalam 1.5 liter air hingga keluar kaldunya, tiriskan ayam lalu goreng sebentar dan suwir-suwir.",
+        "duration": 20,
+        "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Tumis Bumbu Soto",
+        "description": "Tumis bumbu halus kuning bersama serai geprek dan daun jeruk hingga harum tidak langu.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Didihkan Kuah Soto",
+        "description": "Tuang bumbu tumis ke dalam air kaldu ayam. Beri garam, kaldu jamur, dan merica secukupnya.",
+        "duration": 15,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Racik & Sajikan",
+        "description": "Tata soun, kol iris, dan ayam suwir di mangkuk. Siram kuah kuning panas, taburkan koya bubuk dan perasan jeruk nipis.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1572656631137-7935297eff55?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Bikin koya super gurih dengan blender kerupuk udang matang bersama bawang putih goreng renyah.",
+      "Gunakan ayam kampung agar aroma kaldu lebih kuat dan tidak amis."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Daging Ayam",
+        "replacement": "Tahu pong goreng dan jamur tiram suwir"
+      },
+      {
+        "ingredient": "Soun",
+        "replacement": "Bihun jagung atau mie kuning basah"
+      }
+    ],
+    "source": {
+      "name": "Resep Warisan Nusantara",
+      "url": "https://cookpad.com/id/resep/soto-ayam-lamongan"
+    }
+  },
+  {
+    "id": "recipe-004",
+    "name": "Ayam Geprek Sambal Bawang",
+    "slug": "ayam-geprek-sambal-bawang",
+    "description": "Ayam krispi renyah dibalut sambal bawang ulek segar yang pedas nampol dan berminyak panas.",
+    "category": "Masakan Indonesia",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=1000&q=80",
+    "duration": 30,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Potongan Ayam Crispy",
+        "quantity": 2,
+        "unit": "potong",
+        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Cabai Rawit Merah",
+        "quantity": 15,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Putih",
+        "quantity": 3,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Garam & Kaldu Bubuk",
+        "quantity": 0.5,
+        "unit": "sdt",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Minyak Goreng Panas",
+        "quantity": 3,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Ulek Kasar Sambal",
+        "description": "Ulek cabai rawit merah, bawang putih, garam, dan kaldu bubuk di atas cobek batu hingga bertekstur kasar.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Siram Minyak Panas",
+        "description": "Panaskan minyak sisa menggoreng ayam, lalu siramkan langsung ke atas ulekan sambal hingga berdesis wangi.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Geprek Ayam",
+        "description": "Taruh ayam krispi di atas cobek sambal, lalu geprek dengan ulekan hingga agak remuk dan sambal menempel rata.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Gunakan minyak yang benar-benar panas agar rasa pedas cabai matang dan tidak berbau langu mentah.",
+      "Bisa ditambahkan keju mozzarella leleh di atasnya untuk variasi modern."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Potongan Ayam Crispy",
+        "replacement": "Tempe goreng tepung krispi atau telur dadar tebal"
+      },
+      {
+        "ingredient": "Cabai Rawit Merah",
+        "replacement": "Cabai hijau besar untuk versi lebih ramah lambung"
+      }
+    ],
+    "source": {
+      "name": "Resep Kuliner Kekinian",
+      "url": "https://endeus.tv/resep/ayam-geprek"
+    }
+  },
+  {
+    "id": "recipe-005",
+    "name": "Telur Balado Pedas Manis",
+    "slug": "telur-balado-pedas-manis",
+    "description": "Telur rebus digoreng berkulit lalu dimasak dengan sambal balado merah merona beraroma daun jeruk.",
+    "category": "Masakan Indonesia",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=1000&q=80",
+    "duration": 25,
+    "difficulty": "Mudah",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Telur Ayam Rebus",
+        "quantity": 6,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Cabai Merah Besar",
+        "quantity": 8,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Merah",
+        "quantity": 6,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tomat Merah Segar",
+        "quantity": 1,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Gula Merah & Garam",
+        "quantity": 1,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Daun Jeruk Purut",
+        "quantity": 3,
+        "unit": "lembar",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Goreng Telur Berkulit",
+        "description": "Goreng telur rebus dalam minyak panas hingga permukaannya kecokelatan dan berkulit renyah. Angkat dan tiriskan.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Tumis Bumbu Balado",
+        "description": "Haluskan cabai, bawang, dan tomat. Tumis bersama daun jeruk sobek sampai harum dan minyaknya terpisah.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Campur & Masak Meresap",
+        "description": "Masukkan telur berkulit ke wajan balado, beri gula merah, garam, dan sedikit air. Masak hingga kuah mengental menyelimuti telur.",
+        "duration": 7,
+        "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Tusuk-tusuk sedikit permukaan telur sebelum digoreng agar tidak meletup di minyak.",
+      "Gunakan tomat merah ranum agar balado berwarna cantik dan rasanya manis alami."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Telur Ayam Rebus",
+        "replacement": "Tahu goreng cokelat, kentang balado, atau telur puyuh"
+      },
+      {
+        "ingredient": "Gula Merah",
+        "replacement": "Gula pasir putih"
+      }
+    ],
+    "source": {
+      "name": "Sajian Sedap Nusantara",
+      "url": "https://sajiansedap.grid.id/resep-telur-balado"
+    }
+  },
+  {
+    "id": "recipe-006",
+    "name": "Sate Ayam Madura Bumbu Kacang",
+    "slug": "sate-ayam-madura",
+    "description": "Potongan daging ayam lembut dipanggang wangi arang dengan siraman saus kacang gurih manis dan kecap.",
+    "category": "Masakan Indonesia",
+    "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1000&q=80",
+    "duration": 40,
+    "difficulty": "Sedang",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Dada/Paha Ayam Fillet",
+        "quantity": 400,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kacang Tanah Goreng Halus",
+        "quantity": 150,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1568285526848-185e7d9595db?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Putih & Merah",
+        "quantity": 5,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kecap Manis",
+        "quantity": 4,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tusuk Sate Bambu",
+        "quantity": 20,
+        "unit": "batang",
+        "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Potong & Tusuk Daging",
+        "description": "Potong ayam dadu, tusukkan ke tusuk bambu (sekitar 4 potong per tusuk).",
+        "duration": 15,
+        "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Masak Saus Kacang",
+        "description": "Tumis bawang halus, masukkan kacang tanah halus, air, kecap, dan gula merah. Masak hingga berminyak dan kental.",
+        "duration": 12,
+        "image": "https://images.unsplash.com/photo-1568285526848-185e7d9595db?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Bakar & Lumuri Saus",
+        "description": "Celup sate ke bumbu olesan kecap dan sedikit bumbu kacang, bakar di atas grill pan atau arang hingga matang harum.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Sajikan dengan Pelengkap",
+        "description": "Sajikan sate panas dengan siraman saus kacang pekat, kecap manis, irisan bawang merah, dan cabai rawit.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Rendam tusuk sate bambu dalam air sebelum dipakai agar tidak mudah gosong saat dibakar.",
+      "Gunakan paha ayam fillet agar tekstur daging tetap juicy dan tidak kering."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Daging Ayam Fillet",
+        "replacement": "Tempe kukus potong dadu atau daging sapi iris"
+      },
+      {
+        "ingredient": "Kacang Tanah",
+        "replacement": "Selai kacang (peanut butter) tanpa gula dicampur air panas"
+      }
+    ],
+    "source": {
+      "name": "Koleksi Resep Tradisional",
+      "url": "https://resepkoki.id/resep-sate-ayam-madura"
+    }
+  },
+  {
+    "id": "recipe-007",
+    "name": "Tom Yum Goong Pedas Segar",
+    "slug": "tom-yum-goong",
+    "description": "Sup khas Thailand berkuah merah aromatik serai, lengkuas, daun jeruk, dengan udang segar dan jamur merang.",
+    "category": "Masakan Asia",
+    "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&w=1000&q=80",
+    "duration": 25,
+    "difficulty": "Sedang",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Udang Segar Bersih",
+        "quantity": 300,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Jamur Kancing / Merang",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1504672281656-e4981d70414b?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Pasta Tom Yum / Bumbu Khas",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Serai & Daun Jeruk",
+        "quantity": 3,
+        "unit": "batang",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kecap Ikan & Air Jeruk Nipis",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Buat Air Kaldu Udang",
+        "description": "Sangrai kepala dan kulit udang sebentar, lalu rebus dengan 800ml air hingga harum, saring air kaldunya.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Rebus Aromatik & Bumbu",
+        "description": "Didihkan kaldu bersama serai geprek, lengkuas, daun jeruk, cabai rawit utuh, dan pasta tom yum.",
+        "duration": 6,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Masukkan Udang & Jamur",
+        "description": "Masukkan udang dan potongan jamur. Masak cepat sekitar 3 menit hingga udang berubah warna kemerahan.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Beri Perasan Jeruk Nipis",
+        "description": "Matikan api, masukkan kecap ikan dan perasan jeruk nipis segar agar asam segarnya tidak pahit. Sajikan hangat.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Perasan jeruk nipis selalu dimasukkan setelah api dimatikan agar rasa asamnya tidak menjadi pahit.",
+      "Tambahkan 2 sendok susu evaporasi jika ingin versi kuah creamy (Tom Yum Nam Khon)."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Udang Segar",
+        "replacement": "Cumi-cumi, fillet ikan nila, atau tahu sutra"
+      },
+      {
+        "ingredient": "Kecap Ikan",
+        "replacement": "Kecap asin dicampur sedikit garam"
+      }
+    ],
+    "source": {
+      "name": "Asian Recipe Hub",
+      "url": "https://www.tasteatlas.com/tom-yum"
+    }
+  },
+  {
+    "id": "recipe-008",
+    "name": "Beef Teriyaki Rice Bowl",
+    "slug": "beef-teriyaki-rice-bowl",
+    "description": "Irisan daging sapi tipis empuk ditumis dengan saus teriyaki manis gurih, bawang bombay karamel, dan taburan wijen.",
+    "category": "Masakan Asia",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80",
+    "duration": 20,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Daging Sapi Slice Tipis (Shortplate)",
+        "quantity": 250,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Bombay Iris",
+        "quantity": 1,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Saus Teriyaki",
+        "quantity": 3,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kecap Manis & Asin",
+        "quantity": 1,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Minyak Wijen & Wijen Sangrai",
+        "quantity": 1,
+        "unit": "sdt",
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Marinasi Daging",
+        "description": "Campurkan daging sapi slice dengan saus teriyaki, kecap manis, kecap asin, lada hitam, dan minyak wijen selama 10 menit.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Tumis Bombay Harum",
+        "description": "Panaskan sedikit mentega di wajan, tumis bawang bombay hingga layu dan sedikit kecokelatan.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Masak Daging Cepat",
+        "description": "Masukkan daging yang telah dimarinasi beserta sausnya. Masak dengan api besar cepat selama 3-4 menit sampai daging matang meresap.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Sajikan di Atas Nasi",
+        "description": "Tata nasi putih hangat di mangkuk, letakkan beef teriyaki di atasnya, taburi biji wijen sangrai dan irisan daun bawang.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Jangan memasak beef slice terlalu lama agar teksturnya tetap lembut dan juicy tidak alot.",
+      "Gunakan minyak wijen di tahap akhir agar aroma harum khas Asia tetap terjaga."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Daging Sapi Slice",
+        "replacement": "Fillet dada ayam iris tipis atau jamur tiram suwir"
+      },
+      {
+        "ingredient": "Saus Teriyaki Siap Pakai",
+        "replacement": "Campuran kecap manis, kecap asin jepang, parutan jahe, dan madu"
+      }
+    ],
+    "source": {
+      "name": "Bento & Asian Daily",
+      "url": "https://justonecookbook.com/beef-teriyaki"
+    }
+  },
+  {
+    "id": "recipe-009",
+    "name": "Ramen Kuah Kaldu Ayam Gurih",
+    "slug": "ramen-kuah-kaldu-ayam",
+    "description": "Mie ramen kenyal berpadu kuah kaldu ayam gurih kental beraroma bawang putih, minyak wijen, telur ajitsuke, dan nori.",
+    "category": "Masakan Asia",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1000&q=80",
+    "duration": 35,
+    "difficulty": "Sedang",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Mie Ramen Kering / Basah",
+        "quantity": 2,
+        "unit": "porsi",
+        "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kaldu Ayam Kental",
+        "quantity": 700,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kecap Asin Jepang (Shoyu)",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Minyak Wijen & Bawang Putih Parut",
+        "quantity": 1,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Telur Rebus Setengah Matang",
+        "quantity": 2,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Lembaran Nori & Daun Bawang",
+        "quantity": 2,
+        "unit": "lembar",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Masak Kuah Ramen",
+        "description": "Didihkan kaldu ayam, masukkan shoyu, bawang putih parut halus, jahe geprek, dan minyak wijen. Koreksi rasa hingga gurih mantap.",
+        "duration": 15,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Rebus Mie Ramen",
+        "description": "Rebus mie ramen di panci terpisah dengan air mendidih selama 2-3 menit sampai tingkat kematangan kenyal (al dente). Tiriskan.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Susun & Tuang Kuah",
+        "description": "Letakkan mie di dasar mangkuk, siram dengan kuah kaldu mendidih, lalu tata telur belah dua, irisan daging/ayam, nori, dan daun bawang.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Rebus mie terpisah agar kuah kaldu tetap jernih dan rasa kaldu tidak tertutup oleh tepung mie.",
+      "Rebus telur tepat 6 menit 30 detik lalu rendam air es untuk mendapatkan kuning telur meleleh sempurna."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Mie Ramen",
+        "replacement": "Mie instan rebus tanpa bumbu atau mie telur pipih"
+      },
+      {
+        "ingredient": "Shoyu Jepang",
+        "replacement": "Kecap asin lokal kualitas bagus"
+      }
+    ],
+    "source": {
+      "name": "Tokyo Ramen Guide",
+      "url": "https://norecipes.com/shoyu-ramen"
+    }
+  },
+  {
+    "id": "recipe-010",
+    "name": "Pad Thai Mie Goreng Thailand",
+    "slug": "pad-thai-ayam",
+    "description": "Kwetiau beras tumis khas jalanan Bangkok dengan perpaduan saus asam jawa, telur orak-arik, tauge renyah, dan kacang sangrai.",
+    "category": "Masakan Asia",
+    "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1000&q=80",
+    "duration": 25,
+    "difficulty": "Sedang",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Kwetiau Kering Beras (rendam air)",
+        "quantity": 180,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Telur Ayam",
+        "quantity": 2,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tahu Kuning Potong Dadu",
+        "quantity": 1,
+        "unit": "kotak",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Pasta Asam Jawa & Gula Merah",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kacang Tanah Sangrai Tumbuk",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1568285526848-185e7d9595db?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tauge Segar & Kucai",
+        "quantity": 80,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Campur Saus Pad Thai",
+        "description": "Larutkan pasta asam jawa, gula merah, kecap ikan, dan sedikit air hangat hingga seimbang rasa manis dan asamnya.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Tumis Tahu & Telur",
+        "description": "Tumis tahu hingga berkulit, sisihkan ke pinggir wajan, orak-arik telur hingga matang berbulir.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Masukkan Mie & Saus",
+        "description": "Masukkan kwetiau yang sudah empuk bersama saus asam jawa. Masak dengan api besar sampai saus terserap sempurna oleh mie.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Beri Tauge & Kacang",
+        "description": "Masukkan tauge segar dan kucai, aduk cepat 30 detik agar tetap renyah, angkat dan sajikan bersama taburan kacang sangrai dan jeruk nipis.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Rendam kwetiau di air dingin sampai lentur, jangan direbus terlalu matang agar tidak patah-patah saat diaduk di wajan.",
+      "Keseimbangan rasa Pad Thai ada pada perpaduan manis gula merah dan segarnya asam jawa."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Kwetiau Beras",
+        "replacement": "Bihun tebal atau mie telur pipih"
+      },
+      {
+        "ingredient": "Asam Jawa",
+        "replacement": "Saus tomat dicampur perasan jeruk nipis"
+      }
+    ],
+    "source": {
+      "name": "Bangkok Street Food",
+      "url": "https://hot-thai-kitchen.com/best-pad-thai"
+    }
+  },
+  {
+    "id": "recipe-011",
+    "name": "Spaghetti Aglio e Olio Cabai Rawit",
+    "slug": "spaghetti-aglio-olio",
+    "description": "Pasta klasik Italia dengan aroma minyak zaitun, bawang putih keemasan, sentuhan cabai pedas, dan daun peterseli segar.",
+    "category": "Masakan Western",
+    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1000&q=80",
+    "duration": 18,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Spaghetti Pasta",
+        "quantity": 180,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Minyak Zaitun (Extra Virgin)",
+        "quantity": 4,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Putih Iris Tipis",
+        "quantity": 4,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Cabai Rawit / Chili Flakes",
+        "quantity": 3,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Garam & Air Rebusan Pasta",
+        "quantity": 0.5,
+        "unit": "cangkir",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Rebus Spaghetti Al Dente",
+        "description": "Didihkan air dengan 1 sdt garam, rebus spaghetti selama 8-9 menit hingga al dente. Sisihkan setengah cangkir air rebusan sebelum ditiriskan.",
+        "duration": 9,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Infuse Minyak & Bawang",
+        "description": "Panaskan minyak zaitun dengan api kecil, masukkan irisan bawang putih dan cabai. Masak perlahan hingga bawang mulai harum keemasan (jangan sampai gosong).",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Emulsi Saus & Masukkan Pasta",
+        "description": "Tuang air rebusan pasta ke wajan, kocok agar menyatu dengan minyak (emulsi), lalu masukkan spaghetti rebus.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Sajikan Hangat",
+        "description": "Aduk cepat sampai saus minyak menyelimuti seluruh untaian pasta secara mengkilap. Taburi peterseli cincang dan sajikan.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Air rebusan pasta yang mengandung pati adalah kunci membuat saus minyak zaitun mengental menyatu dengan pasta.",
+      "Gunakan api sangat kecil saat memasak bawang putih agar minyak terinfus rasa manis bawang tanpa pahit gosong."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Minyak Zaitun",
+        "replacement": "Minyak kelapa atau mentega tawar leleh"
+      },
+      {
+        "ingredient": "Cabai Rawit",
+        "replacement": "Chili flakes kering atau lada hitam bubuk"
+      }
+    ],
+    "source": {
+      "name": "Italian Culinary Academy",
+      "url": "https://www.giallozafferano.com/spaghetti-aglio-olio-e-peperoncino"
+    }
+  },
+  {
+    "id": "recipe-012",
+    "name": "Creamy Fettuccine Carbonara",
+    "slug": "creamy-carbonara-pasta",
+    "description": "Pasta fettuccine dengan saus creamy gurih keju parmesan, kuning telur lembut, dan potongan daging asap renyah.",
+    "category": "Masakan Western",
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=1000&q=80",
+    "duration": 20,
+    "difficulty": "Sedang",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Fettuccine / Spaghetti",
+        "quantity": 180,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Smoked Beef / Daging Asap",
+        "quantity": 3,
+        "unit": "lembar",
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kuning Telur Ayam",
+        "quantity": 2,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Keju Parmesan / Cheddar Parut",
+        "quantity": 40,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Cooking Cream / Susu Full Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Lada Hitam Kasar",
+        "quantity": 0.5,
+        "unit": "sdt",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Rebus Fettuccine",
+        "description": "Rebus fettuccine dalam air mendidih bergaram hingga al dente, sisihkan.",
+        "duration": 9,
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Goreng Smoked Beef",
+        "description": "Tumis irisan smoked beef di wajan hingga sedikit garing dan mengeluarkan aroma gurih.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Racik Campuran Saus",
+        "description": "Kocok kuning telur, parutan keju, krim kental, dan lada hitam dalam mangkuk kecil hingga lembut.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Campur Tanpa Api Terlalu Panas",
+        "description": "Matikan api kompor wajan, masukkan pasta rebus dan campuran telur krim. Aduk cepat hingga saus mengental lembut menyelubungi pasta.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Pastikan api kompor dimatikan saat memasukkan adonan telur agar tidak berubah menjadi telur orak-arik.",
+      "Gunakan lada hitam yang digiling segar untuk aroma yang lebih semerbak."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Smoked Beef",
+        "replacement": "Sosis iris atau jamur kancing tumis gurih"
+      },
+      {
+        "ingredient": "Cooking Cream",
+        "replacement": "Susu cair putih dicampur 1 sdm mentega"
+      }
+    ],
+    "source": {
+      "name": "Classic Western Kitchen",
+      "url": "https://www.bbcgoodfood.com/recipes/ultimate-carbonara"
+    }
+  },
+  {
+    "id": "recipe-013",
+    "name": "Classic Beef Burger Homemade",
+    "slug": "classic-beef-burger",
+    "description": "Burger daging sapi juicy buatan sendiri dengan lelehan keju cheddar, selada segar, tomat, dan saus spesial.",
+    "category": "Masakan Western",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=80",
+    "duration": 25,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Roti Burger Bun",
+        "quantity": 2,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Daging Sapi Giling Segar",
+        "quantity": 250,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Keju Slice Melt",
+        "quantity": 2,
+        "unit": "lembar",
+        "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Selada & Irisan Tomat",
+        "quantity": 4,
+        "unit": "lembar",
+        "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Mayones & Saus Sambal/Tomat",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Bentuk Patty Daging",
+        "description": "Bumbui daging giling dengan garam dan merica, bentuk bulat pipih sesuai diameter roti bun.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Panggang Patty & Lelehkan Keju",
+        "description": "Panggang patty di atas pan panas selama 3-4 menit tiap sisi. Taruh keju slice di atasnya di menit terakhir sampai meleleh.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Panggang Roti Bun",
+        "description": "Olesi bagian dalam bun dengan mentega, panggang sebentar di pan hingga kecokelatan harum.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Susun Burger",
+        "description": "Olesi roti dengan mayones dan saus, tata selada, tomat, patty keju leleh, lalu tutup dengan roti bun atas.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Jangan menekan-nekan patty saat dipanggang agar saripati daging (juices) tidak keluar dan burger tetap empuk lembap.",
+      "Tekan bagian tengah patty sedikit cekung sebelum dipanggang agar tidak menggelembung."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Daging Sapi Giling",
+        "replacement": "Daging ayam cincang atau patty tempe lumat"
+      },
+      {
+        "ingredient": "Roti Burger Bun",
+        "replacement": "Roti tawar panggang atau brioche bun"
+      }
+    ],
+    "source": {
+      "name": "Burger Craft Workshop",
+      "url": "https://seriouseats.com/the-burger-lab-how-to-make-the-best-burger"
+    }
+  },
+  {
+    "id": "recipe-014",
+    "name": "Creamy Mushroom Soup Hangat",
+    "slug": "creamy-mushroom-soup",
+    "description": "Sup krim jamur kancing kental lembut yang harum mentega, bawang bombay karamel, dan kaldu gurih.",
+    "category": "Masakan Western",
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=80",
+    "duration": 25,
+    "difficulty": "Mudah",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Jamur Kancing / Champignon Iris",
+        "quantity": 200,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1504672281656-e4981d70414b?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Mentega Tawar (Butter)",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tepung Terigu Serbaguna",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Susu Cair Full Cream",
+        "quantity": 300,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Air Kaldu Ayam / Sayur",
+        "quantity": 200,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Tumis Jamur & Bombay",
+        "description": "Lelehkan mentega, tumis irisan jamur dan bawang bombay cincang sampai air jamur surut dan berubah kecokelatan wangi.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1504672281656-e4981d70414b?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Buat Roux Pengental",
+        "description": "Taburkan tepung terigu ke tumisan jamur, aduk rata selama 1 menit sampai matang berpasir.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Tuang Susu & Didihkan",
+        "description": "Tuang susu cair dan air kaldu perlahan sambil terus diaduk cepat dengan whisk agar tidak menggumpal. Didihkan dengan api kecil.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Bumbui & Sajikan",
+        "description": "Beri garam, pala bubuk, dan lada. Angkat saat kuah sudah mengental lembut, sajikan bersama roti panggang garing (garlic bread).",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Menumis jamur sampai benar-benar kecokelatan adalah rahasia aroma sup jamur restoran yang kaya rasa.",
+      "Bisa diblender separuh jika ingin tekstur kuah yang sangat halus seperti di bistro hotel."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Jamur Kancing",
+        "replacement": "Jamur tiram cincang atau jamur kuping"
+      },
+      {
+        "ingredient": "Susu Cair",
+        "replacement": "Susu oat atau santan encer"
+      }
+    ],
+    "source": {
+      "name": "French Home Kitchen",
+      "url": "https://cafedelites.com/creamy-mushroom-soup"
+    }
+  },
+  {
+    "id": "recipe-015",
+    "name": "Sayur Asem Segar Khas Sunda",
+    "slug": "sayur-asem-khas-sunda",
+    "description": "Sayur asem berkuah bening kemerahan yang manis asam segar dengan melinjo, jagung manis, kacang panjang, dan labu siam.",
+    "category": "Makanan Tradisional",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1000&q=80",
+    "duration": 30,
+    "difficulty": "Mudah",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Jagung Manis Potong",
+        "quantity": 1,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Labu Siam & Kacang Panjang",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Melinjo & Daun So",
+        "quantity": 50,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Asam Jawa Muda / Asam Kandis",
+        "quantity": 2,
+        "unit": "mata",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bumbu Halus (Bawang, Cabai, Terasi)",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Didihkan Air & Rebus Bahan Keras",
+        "description": "Didihkan 1.2 liter air, masukkan jagung manis dan buah melinjo hingga setengah empuk.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Masukkan Bumbu & Asam Jawa",
+        "description": "Masukkan bumbu halus, lengkuas geprek, daun salam, dan air asam jawa. Beri garam dan gula merah secukupnya.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Masukkan Sayuran Lembut",
+        "description": "Masukkan labu siam, kacang panjang, dan daun melinjo. Masak sekitar 5 menit sampai sayuran matang renyah, angkat.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Jangan merebus kacang panjang terlalu lama agar warnanya tetap hijau segar dan teksturnya kriuk renyah.",
+      "Kombinasi asam jawa dan gula merah menghasilkan kuah asem yang seimbang tidak kecut tajam."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Asam Jawa",
+        "replacement": "Belimbing wuluh atau tomat hijau potong"
+      },
+      {
+        "ingredient": "Labu Siam",
+        "replacement": "Pepaya muda serut atau ketimun buang biji"
+      }
+    ],
+    "source": {
+      "name": "Kuliner Pasundan Sunda",
+      "url": "https://resepkoki.id/resep-sayur-asem-sunda"
+    }
+  },
+  {
+    "id": "recipe-016",
+    "name": "Pempek Dos Crispy Tanpa Ikan",
+    "slug": "pempek-dos-crispy",
+    "description": "Pempek ekonomis lembut di dalam dan krispi di luar dengan kuah cuko hitam kental manis asam pedas khas Palembang.",
+    "category": "Makanan Tradisional",
+    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1000&q=80",
+    "duration": 40,
+    "difficulty": "Sedang",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Tepung Tapioka / Sagu",
+        "quantity": 250,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tepung Terigu Serbaguna",
+        "quantity": 125,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Telur Ayam",
+        "quantity": 2,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Gula Merah Batok Hitam (Cuko)",
+        "quantity": 200,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Putih & Cabai Rawit (Cuko)",
+        "quantity": 10,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Buat Biang Pempek",
+        "description": "Masak tepung terigu, air 300ml, bawang putih halus, garam, dan kaldu bubuk di panci sambil diaduk sampai menjadi bubur kental kalis. Dinginkan.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Uleni dengan Tapioka",
+        "description": "Masukkan telur ke dalam adonan biang, aduk rata. Tambahkan tepung tapioka bertahap, uleni perlahan sampai adonan bisa dibentuk (jangan terlalu ditekan keras).",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Bentuk & Rebus",
+        "description": "Bentuk adonan menjadi lenjer atau kapal selam (isi telur kocok). Rebus dalam air mendidih sampai mengapung matang, angkat dan tiriskan.",
+        "duration": 12,
+        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Goreng & Sajikan Cuko",
+        "description": "Goreng pempek dalam minyak panas hingga kuning keemasan garing. Potong-potong dan siram dengan kuah cuko pekat serta irisan ketimun.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Jangan menguleni adonan terlalu kuat seperti membuat roti agar tekstur pempek tidak menjadi alot.",
+      "Gunakan gula batok asli Linggau/Palembang untuk menghasilkan cuko yang hitam legit pekat."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Gula Batok Hitam",
+        "replacement": "Gula aren atau gula jawa cokelat tua + kecap manis sedikit"
+      },
+      {
+        "ingredient": "Tepung Tapioka",
+        "replacement": "Tepung sagu aren murni"
+      }
+    ],
+    "source": {
+      "name": "Wong Kito Galo Recipe",
+      "url": "https://cookpad.com/id/resep/pempek-dos-palembang"
+    }
+  },
+  {
+    "id": "recipe-017",
+    "name": "Gado-Gado Siram Bumbu Kacang Medhok",
+    "slug": "gado-gado-siram",
+    "description": "Salad sayuran rebus tradisional Indonesia lengkap dengan tahu, tempe goreng, telur, siraman saus kacang gurih, dan kerupuk.",
+    "category": "Makanan Tradisional",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80",
+    "duration": 30,
+    "difficulty": "Mudah",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Sayuran (Kangkung, Tauge, Kacang Panjang)",
+        "quantity": 200,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tahu & Tempe Goreng",
+        "quantity": 4,
+        "unit": "potong",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Telur Rebus Belah Dua",
+        "quantity": 2,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bumbu Kacang Gado-Gado Halus",
+        "quantity": 150,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1568285526848-185e7d9595db?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Lontong / Kentang Rebus",
+        "quantity": 1,
+        "unit": "porsi",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Rebus Sayuran Singkat",
+        "description": "Rebus sayuran hijau dan tauge secara bertahap dalam air mendidih selama 1-2 menit saja agar tetap renyah dan warnanya cerah.",
+        "duration": 6,
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Masak Bumbu Kacang",
+        "description": "Larutkan kacang tanah sangrai halus bersama santan encer, gula merah, asam jawa, dan daun jeruk sampai berminyak kental.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1568285526848-185e7d9595db?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Susun & Siram Bumbu",
+        "description": "Tata potongan lontong/kentang, sayuran rebus, tahu, tempe, dan telur di piring. Siram melimpah dengan bumbu kacang hangat, taburi emping dan bawang goreng.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Rendam sayuran yang baru direbus ke air es sebentar (blanching) agar warnanya tetap hijau segar menggoda.",
+      "Gunakan sedikit kencur pada bumbu kacang untuk aroma khas otentik."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Bumbu Kacang Tradisional",
+        "replacement": "Bumbu pecel instan diencerkan dengan air hangat"
+      },
+      {
+        "ingredient": "Lontong",
+        "replacement": "Kentang kukus potong dadu"
+      }
+    ],
+    "source": {
+      "name": "Warisan Rasa Batavia",
+      "url": "https://id.wikipedia.org/wiki/Gado-gado"
+    }
+  },
+  {
+    "id": "recipe-018",
+    "name": "Bakwan Jagung Manis Renyah",
+    "slug": "bakwan-jagung-renyah",
+    "description": "Gorengan jagung manis krispi dengan irisan daun seledri dan daun bawang, gurih wangi tanpa bantat.",
+    "category": "Makanan Tradisional",
+    "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=1000&q=80",
+    "duration": 20,
+    "difficulty": "Mudah",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Jagung Manis Sisir",
+        "quantity": 2,
+        "unit": "tongkol",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tepung Terigu Serbaguna",
+        "quantity": 4,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tepung Beras (Kunci Renyah)",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Telur Ayam Kocok",
+        "quantity": 1,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Daun Bawang & Seledri Iris",
+        "quantity": 2,
+        "unit": "batang",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Ulek Sebagian Jagung",
+        "description": "Sisir jagung manis, ulek kasar setengah bagiannya agar keluar saripati manisnya, biarkan sisanya tetap utuh bertekstur.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Aduk Adonan Tepung",
+        "description": "Campur jagung dengan terigu, tepung beras, telur, bawang putih halus, ketumbar bubuk, garam, dan irisan daun bawang.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Goreng hingga Garing",
+        "description": "Sendokkan adonan tipis-tipis ke minyak banyak yang sudah panas. Goreng dengan api sedang sampai kuning keemasan garing. Tiriskan.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Menambahkan tepung beras adalah kunci agar bakwan jagung tetap renyah tahan lama dan tidak lembek saat dingin.",
+      "Jangan membuat adonan terlalu tebal agar matang merata sampai ke dalam."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Tepung Beras",
+        "replacement": "Tepung maizena 1.5 sdm"
+      },
+      {
+        "ingredient": "Jagung Manis",
+        "replacement": "Wortel serut dan kol iris (menjadi bakwan sayur)"
+      }
+    ],
+    "source": {
+      "name": "Koleksi Gorengan Rumahan",
+      "url": "https://sajiansedap.grid.id/resep-bakwan-jagung"
+    }
+  },
+  {
+    "id": "recipe-019",
+    "name": "Klepon Pandan Gula Merah Meleleh",
+    "slug": "klepon-pandan-gula-merah",
+    "description": "Kue tradisional kenyal beraroma pandan suji dengan isian gula merah yang meledak manis di mulut dan baluran kelapa parut gurih.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=1000&q=80",
+    "duration": 30,
+    "difficulty": "Sedang",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Tepung Ketan Putih",
+        "quantity": 200,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Air Daun Pandan Suji Hangat",
+        "quantity": 180,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Gula Merah Sisir Halus",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kelapa Parut Setengah Tua Kukus",
+        "quantity": 150,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Garam Halus",
+        "quantity": 0.5,
+        "unit": "sdt",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Uleni Kulit Klepon",
+        "description": "Campur tepung ketan dengan garam, tuang air pandan suji hangat perlahan sambil diuleni sampai adonan kalis dan mudah dipulung.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Beri Isian Gula Merah",
+        "description": "Ambil sedikit adonan, bulatkan lalu pipihkan cekung. Beri 1/2 sdt gula merah sisir di tengah, rapatkan dan bulatkan kembali hingga mulus rapat.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Rebus Hingga Terapung",
+        "description": "Masukkan bulatan klepon ke air mendidih. Masak hingga terapung ke permukaan tanda gula merah di dalam sudah meleleh sempurna. Angkat.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Balur Kelapa Parut",
+        "description": "Langsung gulingkan klepon hangat ke atas kelapa parut kukus yang sudah diberi sedikit garam. Sajikan.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Pastikan bulatan adonan benar-benar tertutup rapat tanpa celah agar gula merah tidak bocor saat direbus.",
+      "Kukus kelapa parut selama 10 menit dengan sejumput garam dan daun pandan agar tahan seharian dan tidak cepat basi."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Air Daun Pandan Suji",
+        "replacement": "Pasta pandan 1 sdt dilarutkan ke air hangat"
+      },
+      {
+        "ingredient": "Gula Merah Sisir",
+        "replacement": "Cokelat blok cincang (menjadi klepon choco modern)"
+      }
+    ],
+    "source": {
+      "name": "Kue Tradisional Basah Nusantara",
+      "url": "https://cookpad.com/id/resep/klepon-pandan-gula-merah"
+    }
+  },
+  {
+    "id": "recipe-020",
+    "name": "Dadar Gulung Pandan Unti Kelapa",
+    "slug": "dadar-gulung-pandan",
+    "description": "Kulit dadar hijau berpori cantik yang harum pandan, membungkus isian kelapa parut manis gula aren yang legit.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=1000&q=80",
+    "duration": 35,
+    "difficulty": "Sedang",
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "Tepung Terigu Serbaguna",
+        "quantity": 150,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Santan Encer Hangat",
+        "quantity": 300,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Pasta Pandan / Jus Suji",
+        "quantity": 1,
+        "unit": "sdt",
+        "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kelapa Parut Setengah Tua (Unti)",
+        "quantity": 150,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Gula Aren / Gula Merah (Unti)",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Masak Isian Unti Kelapa",
+        "description": "Masak kelapa parut, gula aren sisir, daun pandan, dan 50ml air hingga gula larut dan kelapa mengering lembap legit.",
+        "duration": 10,
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Aduk Adonan Kulit Berpori",
+        "description": "Campur terigu, telur, garam, santan, dan pasta pandan. Saring agar adonan licin tanpa butiran tepung.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Dadar Tipis di Wajan",
+        "description": "Panaskan wajan teflon dengan api sedang, olesi sedikit minyak. Tuang satu sendok sayur adonan, goyangkan wajan hingga membentuk lapisan berpori. Angkat.",
+        "duration": 12,
+        "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Beri Isian & Gulung Rapi",
+        "description": "Beri 1 sendok unti kelapa di bagian tengah kulit dadar, lipat sisi kanan-kiri lalu gulung rapi memanjang.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Wajan harus dalam keadaan cukup panas saat adonan dituang agar terbentuk pori-pori renda yang cantik pada kulit dadar.",
+      "Jangan masak kulit dadar bolak-balik; cukup satu sisi saja hingga pinggirannya terlepas sendiri."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Santan Encer",
+        "replacement": "Susu cair putih full cream"
+      },
+      {
+        "ingredient": "Unti Kelapa",
+        "replacement": "Vla vanila lembut atau pisang cokelat"
+      }
+    ],
+    "source": {
+      "name": "Jajanan Pasar Legendaris",
+      "url": "https://resepkoki.id/resep-dadar-gulung-pandan"
+    }
+  },
+  {
+    "id": "recipe-021",
+    "name": "Mango Sago Pudding Lembut",
+    "slug": "mango-sago-dessert",
+    "description": "Dessert mangga segar kekinian khas Hong Kong dengan butiran mutiara sagu kenyal, jelly kelapa, dan kuah susu mangga creamy.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80",
+    "duration": 25,
+    "difficulty": "Mudah",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Mangga Harum Manis Matang",
+        "quantity": 2,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Sagu Mutiara Putih",
+        "quantity": 60,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Susu Evaporasi Dingin",
+        "quantity": 200,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Nata de Coco / Jelly Kelapa",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Susu Kental Manis",
+        "quantity": 3,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Rebus Sagu Mutiara Bening",
+        "description": "Rebus sagu mutiara dalam air mendidih selama 12 menit, matikan api, tutup panci selama 15 menit sampai butiran bening transparan. Bilas air dingin.",
+        "duration": 15,
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Blender Puree Mangga",
+        "description": "Potong 1 buah mangga menjadi dadu untuk topping. Blender 1 buah mangga lainnya bersama susu kental manis dan 50ml susu evaporasi hingga halus.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Campur & Dinginkan",
+        "description": "Di mangkuk saji, campur puree mangga, sisa susu evaporasi dingin, sagu mutiara, nata de coco, dan potongan mangga dadu. Dinginkan di kulkas sebelum dinikmati.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Pilih mangga harum manis yang benar-benar matang pohon agar aromanya wangi semerbak dan manis alami tanpa banyak gula.",
+      "Sajikan dalam kondisi dingin segar langsung dari kulkas."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Susu Evaporasi",
+        "replacement": "Susu UHT full cream dingin dicampur santan instan cair"
+      },
+      {
+        "ingredient": "Sagu Mutiara",
+        "replacement": "Biji selasih atau boba tapioka mutiara"
+      }
+    ],
+    "source": {
+      "name": "Hong Kong Dessert Series",
+      "url": "https://thewoksoflife.com/mango-sago"
+    }
+  },
+  {
+    "id": "recipe-022",
+    "name": "Es Teler Spesial Alpukat Kelapa",
+    "slug": "es-teler-spesial",
+    "description": "Minuman es khas Indonesia yang legendaris dengan kombinasi daging alpukat mentega, kelapa muda serut, nangka manis, dan kuah santan kental manis.",
+    "category": "Minuman",
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=1000&q=80",
+    "duration": 15,
+    "difficulty": "Mudah",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Daging Alpukat Mentega Matang",
+        "quantity": 2,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Daging Kelapa Muda Serut",
+        "quantity": 1,
+        "unit": "butir",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Nangka Matang Iris Memanjang",
+        "quantity": 5,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Santan Kelapa Matang Dingin",
+        "quantity": 150,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Susu Kental Manis Putih",
+        "quantity": 5,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Es Batu Serut Segar",
+        "quantity": 4,
+        "unit": "mangkuk",
+        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Siapkan Buah Potong",
+        "description": "Keruk daging alpukat mentega dengan sendok. Serut kelapa muda, dan iris nangka matang bentuk korek api.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Susun di Gelas/Mangkuk",
+        "description": "Tata alpukat, kelapa muda, dan nangka di dasar mangkuk atau gelas saji.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Beri Es Serut & Kuah Manis",
+        "description": "Beri serutan es batu melimpah di atasnya. Siram dengan santan kelapa matang dan kucuran susu kental manis putih yang legit.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Rebus santan dengan selembar daun pandan dan sejumput garam terlebih dahulu agar kuah santan harum gurih dan tidak cepat basi.",
+      "Pilih nangka yang wangi untuk memberikan aroma khas es teler yang semerbak."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Nangka",
+        "replacement": "Melon hijau serut atau blewah manis"
+      },
+      {
+        "ingredient": "Santan",
+        "replacement": "Susu evaporasi dingin"
+      }
+    ],
+    "source": {
+      "name": "Es Nusantara Asli",
+      "url": "https://resepkoki.id/resep-es-teler"
+    }
+  },
+  {
+    "id": "recipe-023",
+    "name": "Wedang Jahe Serai Hangat",
+    "slug": "wedang-jahe-serai",
+    "description": "Minuman herbal tradisional Jawa pereda lelah dan penghangat tubuh dari paduan jahe bakar geprek, serai wangi, dan gula aren asli.",
+    "category": "Minuman",
+    "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80",
+    "duration": 20,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Jahe Emprit / Merah Bakar",
+        "quantity": 80,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Batang Serai Geprek",
+        "quantity": 2,
+        "unit": "batang",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Kayu Manis Batang",
+        "quantity": 1,
+        "unit": "batang",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Gula Aren / Gula Jawa Asli",
+        "quantity": 60,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Air Bersih",
+        "quantity": 600,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Bakar & Geprek Jahe",
+        "description": "Bakar jahe utuh sebentar di atas api kompor hingga kulitnya sedikit menghitam, kerik bersih kulitnya, lalu geprek hingga memar.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Rebus Rempah dengan Api Kecil",
+        "description": "Didihkan air dalam panci, masukkan jahe memar, serai geprek, dan kayu manis. Masak dengan api kecil selama 12 menit agar sari jahe keluar maksimal.",
+        "duration": 12,
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Larutkan Gula Aren & Saring",
+        "description": "Masukkan sisiran gula aren, aduk hingga larut merata. Matikan api, saring ke dalam cangkir saji dan nikmati selagi hangat.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Membakar jahe terlebih dahulu akan mengeluarkan minyak atsiri dan aroma pedas yang lebih nikmat tanpa rasa pahit mentah.",
+      "Bisa tambahkan perasan jeruk lemon untuk sensasi hangat segar penambah daya tahan tubuh."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Gula Aren",
+        "replacement": "Madu murni alami atau gula batu"
+      },
+      {
+        "ingredient": "Jahe Segar",
+        "replacement": "Jahe bubuk murni 1 sdt"
+      }
+    ],
+    "source": {
+      "name": "Jamu & Herbal Indonesia",
+      "url": "https://cookpad.com/id/resep/wedang-jahe-serai"
+    }
+  },
+  {
+    "id": "recipe-024",
+    "name": "Smoothie Berry Yoghurt Segar",
+    "slug": "smoothie-berry-yoghurt",
+    "description": "Smoothie sehat kaya antioksidan dari perpaduan stroberi manis, pisang beku, greek yoghurt lembut, dan madu alami.",
+    "category": "Minuman",
+    "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=1000&q=80",
+    "duration": 10,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Stroberi Segar / Beku",
+        "quantity": 150,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Pisang Cavendish Beku",
+        "quantity": 1,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Greek Yoghurt Plain",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Susu Almond / Susu Segar",
+        "quantity": 150,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Madu Murni",
+        "quantity": 1,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Siapkan Buah Beku",
+        "description": "Gunakan pisang dan stroberi beku agar smoothie bertekstur kental seperti es krim tanpa perlu menambahkan es batu berlebih yang membuat cair.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Blender Semua Bahan",
+        "description": "Masukkan stroberi, pisang beku, greek yoghurt, madu, dan susu ke dalam blender bertenaga tinggi.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Tuang & Beri Topping",
+        "description": "Proses blender selama 1-2 menit hingga benar-benar lembut kental. Tuang ke gelas tinggi dan beri irisan stroberi segar di atasnya.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Membekukan pisang matang sebelumnya adalah kunci tekstur smoothie yang super creamy alami.",
+      "Bisa ditambahkan chia seeds atau oats untuk sarapan padat energi."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Stroberi",
+        "replacement": "Blueberry, mangga beku, atau buah naga merah"
+      },
+      {
+        "ingredient": "Susu Almond",
+        "replacement": "Susu sapi cair atau air kelapa muda"
+      }
+    ],
+    "source": {
+      "name": "Healthy Drink Lab",
+      "url": "https://www.simplyrecipes.com/strawberry-banana-smoothie-recipe"
+    }
+  },
+  {
+    "id": "recipe-025",
+    "name": "Salad Sayur Segar Dressing Wijen Sangrai",
+    "slug": "salad-sayur-wijen-sangrai",
+    "description": "Salad sayuran renyah kaya serat dengan selada romaine, wortel, tomat ceri, jagung manis, dan siraman dressing roasted sesame yang gurih harum.",
+    "category": "Makanan Sehat",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=80",
+    "duration": 15,
+    "difficulty": "Mudah",
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Selada Romaine / Lettuce Segar",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tomat Ceri Belah Dua",
+        "quantity": 6,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Wortel Serut Halus",
+        "quantity": 1,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Jagung Manis Pipil Rebus",
+        "quantity": 50,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Dressing Wijen Sangrai (Roasted Sesame)",
+        "quantity": 3,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Cuci & Keringkan Sayuran",
+        "description": "Cuci bersih seluruh sayuran dengan air mengalir, lalu tiriskan dan keringkan dengan salad spinner atau lap bersih agar dressing menempel sempurna.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Potong & Racik di Mangkuk",
+        "description": "Sobek-sobek daun selada romaine, campurkan wortel serut, tomat ceri, dan jagung manis pipil dalam mangkuk salad.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Siram Dressing & Aduk Rata",
+        "description": "Siramkan roasted sesame dressing sesaat sebelum disajikan, aduk perlahan agar seluruh sayuran terlapisi dressing gurih harum.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Pastikan sayuran benar-benar kering sebelum disiram dressing agar rasa saus tidak encer dan sayuran tidak cepat layu.",
+      "Bisa tambahkan telur rebus atau dada ayam panggang untuk asupan protein lengkap."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Dressing Wijen Sangrai",
+        "replacement": "Minyak zaitun dicampur perasan lemon dan sejumput lada hitam"
+      },
+      {
+        "ingredient": "Selada Romaine",
+        "replacement": "Kubis ungu iris tipis atau daun bayam jepang (horenso)"
+      }
+    ],
+    "source": {
+      "name": "Fit & Healthy Meals",
+      "url": "https://cookieandkate.com/simple-green-salad-recipe"
+    }
+  },
+  {
+    "id": "recipe-026",
+    "name": "Sup Jamur Jagung Bening Hangat",
+    "slug": "sup-jamur-jagung-bening",
+    "description": "Sup sayur bening bergizi tinggi yang ramah pencernaan dengan jamur tiram, jagung manis pipil, wortel, dan bumbu kaldu bawang putih.",
+    "category": "Makanan Sehat",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=1000&q=80",
+    "duration": 20,
+    "difficulty": "Mudah",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Jamur Tiram Suwir Bersih",
+        "quantity": 150,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1504672281656-e4981d70414b?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Jagung Manis Pipil",
+        "quantity": 1,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Wortel Potong Koin",
+        "quantity": 1,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Putih Geprek",
+        "quantity": 3,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Daun Seledri & Bawang Goreng",
+        "quantity": 2,
+        "unit": "tangkai",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Tumis Bawang Putih Geprek",
+        "description": "Tumis bawang putih geprek dengan 1 sdt minyak sampai harum keemasan di panci sup.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Didihkan Air & Rebus Wortel",
+        "description": "Tuang 900ml air, didihkan. Masukkan wortel dan jagung pipil, rebus selama 6 menit hingga mulai empuk.",
+        "duration": 8,
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Masukkan Jamur & Bumbui",
+        "description": "Masukkan suwiran jamur tiram, garam, kaldu jamur non-msg, dan merica bubuk. Masak 3 menit, matikan api.",
+        "duration": 4,
+        "image": "https://images.unsplash.com/photo-1504672281656-e4981d70414b?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Taburi Seledri & Bawang Goreng",
+        "description": "Beri irisan daun seledri dan taburan bawang goreng harum. Sajikan hangat menyegarkan.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Peras jamur tiram perlahan setelah dicuci agar air cuciannya tidak membuat sup menjadi bau langu.",
+      "Sup ini sangat cocok dikonsumsi saat cuaca dingin atau saat kondisi tubuh sedang kurang fit."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Jamur Tiram",
+        "replacement": "Jamur kuping hitam atau jamur enoki"
+      },
+      {
+        "ingredient": "Jagung Manis",
+        "replacement": "Buncis potong dadu atau brokoli"
+      }
+    ],
+    "source": {
+      "name": "Resep Sehat Nusantara",
+      "url": "https://cookpad.com/id/resep/sup-jamur-jagung-bening"
+    }
+  },
+  {
+    "id": "recipe-027",
+    "name": "Tumis Kangkung Tempe Gurih Terasi",
+    "slug": "tumis-kangkung-tempe",
+    "description": "Sayur kangkung hijau segar ditumis cepat dengan potongan tempe goreng gurih, terasi bakar, dan cabai rawit pedas nikmat.",
+    "category": "Makanan Sehat",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80",
+    "duration": 15,
+    "difficulty": "Mudah",
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Kangkung Segar Petik",
+        "quantity": 2,
+        "unit": "ikat",
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Tempe Potong Dadu Goreng",
+        "quantity": 100,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Merah & Putih",
+        "quantity": 5,
+        "unit": "siung",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Cabai Rawit Merah Iris",
+        "quantity": 4,
+        "unit": "buah",
+        "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Saus Tiram & Terasi Bakar",
+        "quantity": 1,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Tumis Bumbu Aromatik",
+        "description": "Tumis irisan bawang merah, bawang putih, cabai rawit, dan sedikit terasi bakar hingga harum wangi di wajan panas.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Masukkan Tempe & Saus Tiram",
+        "description": "Masukkan tempe yang sudah digoreng setengah matang, bumbui dengan saus tiram dan sedikit garam.",
+        "duration": 2,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Tumis Cepat Kangkung",
+        "description": "Besarkan api kompor, masukkan kangkung dan 3 sdm air. Aduk cepat selama 1-2 menit hingga kangkung layu namun warnanya tetap hijau terang. Angkat segera.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Kunci kangkung tetap hijau cerah adalah api kompor harus besar dan waktu memasak sangat singkat (maksimal 2 menit).",
+      "Jangan menutup wajan saat menumis sayuran hijau agar warnanya tidak berubah menjadi hitam kecokelatan."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Tempe",
+        "replacement": "Tahu putih goreng dadu atau udang kupas"
+      },
+      {
+        "ingredient": "Kangkung",
+        "replacement": "Genjer, sawi hijau, atau pakcoy"
+      }
+    ],
+    "source": {
+      "name": "Menu Sehat Keluarga",
+      "url": "https://sajiansedap.grid.id/resep-tumis-kangkung-tempe"
+    }
+  },
+  {
+    "id": "recipe-028",
+    "name": "Opor Ayam Kuah Kuning Spesial",
+    "slug": "opor-ayam-kuah-kuning",
+    "description": "Opor ayam istimewa dengan kuah santan kuning rempah harum ketumbar, jintan, dan serai yang meresap sempurna hingga ke tulang.",
+    "category": "Masakan Indonesia",
+    "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=1000&q=80",
+    "duration": 50,
+    "difficulty": "Sedang",
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "Daging Ayam Potong",
+        "quantity": 600,
+        "unit": "gram",
+        "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Santan Kelapa Sedang",
+        "quantity": 800,
+        "unit": "ml",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bumbu Kuning (Kunyit, Kemiri, Bawang)",
+        "quantity": 3,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Serai & Daun Salam",
+        "quantity": 2,
+        "unit": "batang",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Bawang Goreng Gurih",
+        "quantity": 2,
+        "unit": "sdm",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "title": "Tumis Bumbu Halus Kuning",
+        "description": "Tumis bumbu halus bersama serai, lengkuas geprek, dan daun salam sampai matang harum tidak langu.",
+        "duration": 6,
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 2,
+        "title": "Masukkan Potongan Ayam",
+        "description": "Masukkan potongan ayam, aduk hingga ayam berubah warna kaku dan terlapisi bumbu rata.",
+        "duration": 5,
+        "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 3,
+        "title": "Tuang Santan & Masak Meresap",
+        "description": "Tuang santan kelapa, beri garam, gula pasir, dan kaldu bubuk. Masak dengan api kecil sedang sambil diaduk perlahan hingga ayam empuk dan bumbu meresap gurih.",
+        "duration": 30,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "order": 4,
+        "title": "Sajikan dengan Bawang Goreng",
+        "description": "Angkat dan sajikan opor ayam hangat bersama taburan bawang goreng melimpah dan lontong/ketupat.",
+        "duration": 3,
+        "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "tips": [
+      "Sangrai kemiri dan ketumbar sebelum dihaluskan agar aroma kuah opor lebih sedap aromatik.",
+      "Aduk santan sesekali dengan api sedang agar santan tidak pecah."
+    ],
+    "alternatives": [
+      {
+        "ingredient": "Daging Ayam",
+        "replacement": "Telur rebus dan tahu pong cokelat"
+      },
+      {
+        "ingredient": "Santan Kelapa",
+        "replacement": "Susu cair putih full cream"
+      }
+    ],
+    "source": {
+      "name": "Dapur Tradisional Lebaran",
+      "url": "https://resepkoki.id/resep-opor-ayam-kuning"
+    }
+  }
+]

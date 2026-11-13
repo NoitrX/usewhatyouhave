@@ -1,0 +1,65 @@
+[
+  {
+    "id": "masakan-indonesia",
+    "name": "Masakan Indonesia",
+    "slug": "masakan-indonesia",
+    "icon": "🇮🇩",
+    "description": "Koleksi masakan kaya rempah nusantara yang autentik dan menggugah selera.",
+    "badgeColor": "bg-amber-100 text-amber-800 border-amber-300",
+    "recipeCount": 7
+  },
+  {
+    "id": "masakan-asia",
+    "name": "Masakan Asia",
+    "slug": "masakan-asia",
+    "icon": "🥢",
+    "description": "Cita rasa khas oriental, Jepang, Korea, hingga Thailand yang lezat dan gurih.",
+    "badgeColor": "bg-red-100 text-red-800 border-red-300",
+    "recipeCount": 4
+  },
+  {
+    "id": "masakan-western",
+    "name": "Masakan Western",
+    "slug": "masakan-western",
+    "icon": "🍝",
+    "description": "Pasta, burger, steak, dan sajian ala barat yang praktis dibuat di rumah.",
+    "badgeColor": "bg-yellow-100 text-yellow-800 border-yellow-300",
+    "recipeCount": 4
+  },
+  {
+    "id": "makanan-tradisional",
+    "name": "Makanan Tradisional",
+    "slug": "makanan-tradisional",
+    "icon": "🍲",
+    "description": "Warisan kuliner legendaris daerah dengan resep turun-temurun.",
+    "badgeColor": "bg-orange-100 text-orange-800 border-orange-300",
+    "recipeCount": 4
+  },
+  {
+    "id": "dessert",
+    "name": "Dessert",
+    "slug": "dessert",
+    "icon": "🧁",
+    "description": "Camilan manis, puding lembut, dan kue tradisional penutup hari.",
+    "badgeColor": "bg-pink-100 text-pink-800 border-pink-300",
+    "recipeCount": 3
+  },
+  {
+    "id": "minuman",
+    "name": "Minuman",
+    "slug": "minuman",
+    "icon": "🍹",
+    "description": "Minuman segar pelepas dahaga serta wedang herbal penghangat tubuh.",
+    "badgeColor": "bg-teal-100 text-teal-800 border-teal-300",
+    "recipeCount": 3
+  },
+  {
+    "id": "makanan-sehat",
+    "name": "Makanan Sehat",
+    "slug": "makanan-sehat",
+    "icon": "🥗",
+    "description": "Menu bernutrisi seimbang, rendah lemak, sayuran segar, dan tinggi serat.",
+    "badgeColor": "bg-emerald-100 text-emerald-800 border-emerald-300",
+    "recipeCount": 3
+  }
+]
